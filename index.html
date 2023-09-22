@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/itlogo_cons-removebg-preview.png"
+      type="image/x-icon"
+      class="favicon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/card.css" />
+    <link rel="stylesheet" href="./assets/css/drop.css" />
+
+    <title>ITpark</title>
+  </head>
+
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="" class="nav__logo">
+          <!-- <i class="ri-steering-fill"></i> -->
+          ITpark
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Главное</a>
+            </li>
+            <li class="nav__item">
+              <a href="#popular" class="nav__link">Направления</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">О нас </a>
+            </li>
+            <li class="nav__item">
+              <a href="#featured" class="nav__link">Наш состав</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="shapeX shape__big"></div>
+        <!-- <div class="shapeX shape__small"></div> -->
+
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">Education Academy</h1>
+          </div>
+
+          <img
+            src="assets/img/itlogo-transformed.png"
+            alt=""
+            class="home__img"
+          />
+          <div class="home__car">
+            <div class="home__car-data">
+              <h2 class="home__car-number">5000+</h2>
+              <h3 class="home__car-name">выпусников</h3>
+            </div>
+
+            <div class="home__car-data">
+              <h2 class="home__car-number">4+</h2>
+              <h3 class="home__car-name">менторов</h3>
+            </div>
+            <div class="home__car-data">
+              <h2 class="home__car-number">5+</h2>
+              <h3 class="home__car-name">года опыта</h3>
+            </div>
+          </div>
+
+          <!-- <a href="#" class="home__button">START</a> -->
+          <!-- 
+          <div class="slider__bg">
+            <div class="slider__bg-navBtn active"></div>
+            <div class="slider__bg-navBtn"></div>
+            <div class="slider__bg-navBtn"></div>
+          </div> -->
+        </div>
+        <div class="home__social">
+          <a
+            href="https://www.facebook.com/itpark.osh/"
+            target="_blank"
+            class="home__social-icon"
+            ><i class="ri-facebook-fill"></i
+          ></a>
+          <a
+            href="https://instagram.com/itpark_osh?igshid=NzZhOTFlYzFmZQ=="
+            target="_blank"
+            class="home__social-icon home__social-icon-in"
+            ><i class="ri-instagram-fill"></i
+          ></a>
+          <a
+            href="https://api.whatsapp.com/send/?phone=%2B996500891111&text&type=phone_number&app_absent=0"
+            target="_blank"
+            class="home__social-icon home__social-icon-wa"
+            ><i class="ri-whatsapp-fill"></i
+          ></a>
+        </div>
+      </section>
+      <!--==================== GALLERY BANNER ====================-->
+      <!-- <section class="gallery section">
+        <div class="gallery__container container grid">
+          <video
+            class="video__slide active"
+            src="assets/video/it_park_logo.mp4"
+            autoplay
+            muted
+            loop
+          ></video>
+          <video
+            class="video__slide active"
+            src="assets/video/vid_6.mp4"
+            autoplay
+            muted
+            loop
+          ></video>
+          <video
+            class="video__slide active"
+            src="assets/video/vid_7.mp4"
+            autoplay
+            muted
+            loop
+          ></video>
+        </div>
+      </section> -->
+
+      <!--==================== POPULAR ====================-->
+      <section class="popular section" id="popular">
+        <h2 class="section__title">
+          Направления и <br />
+          обучения
+        </h2>
+        <div class="popular__container container swiper">
+          <div class="swiper-wrapper">
+            <article class="popular__card swiper-slide">
+              <div class="shapeX shape__smaller"></div>
+
+              <h1 class="popular__title">Frontend</h1>
+              <h3 class="popular__subtitle">Разработчик</h3>
+
+              <img
+                src="assets/img/JavaScript-logo-removebg-preview.png"
+                alt=""
+                class="popular__img"
+              />
+
+              <div class="popular__data">
+                <div class="popular__data-group">
+                  <i class="ri-dashboard-2-line"></i> 4 месяца
+                </div>
+                <div class="popular__data-group">
+                  <i class="ri-exchange-funds-line"></i> 48 уроков
+                </div>
+              </div>
+
+              <h3 class="popular__price">10.000 сом</h3>
+              <button class="buttonn popular__button">
+                <a href="./frontend.html">Подробнее</a>
+              </button>
+            </article>
+
+            <article class="popular__card swiper-slide">
+              <div class="shapeX shape__smaller"></div>
+
+              <h1 class="popular__title">Backend</h1>
+              <h3 class="popular__subtitle">Разработчик</h3>
+
+              <img
+                src="assets/img/logos_python.png"
+                alt=""
+                class="popular__img"
+              />
+
+              <div class="popular__data">
+                <div class="popular__data-group">
+                  <i class="ri-dashboard-2-line"></i> 4 месяца
+                </div>
+                <div class="popular__data-group">
+                  <i class="ri-exchange-funds-line"></i> 48 уроков
+                </div>
+              </div>
+
+              <h3 class="popular__price">10.000 сом</h3>
+              <button class="buttonn popular__button">
+                <a href="./backend.html">Подробнее</a>
+              </button>
+            </article>
+
+            <article class="popular__card swiper-slide">
+              <div class="shapeX shape__smaller"></div>
+
+              <h1 class="popular__title">UI/UX</h1>
+              <h3 class="popular__subtitle">Дизайнер</h3>
+
+              <img
+                src="assets/img/logos_figma.png "
+                alt=""
+                class="popular__img"
+              />
+
+              <div class="popular__data">
+                <div class="popular__data-group">
+                  <i class="ri-dashboard-2-line"></i> 4 месяца
+                </div>
+                <div class="popular__data-group">
+                  <i class="ri-exchange-funds-line"></i> 48 уроков
+                </div>
+              </div>
+
+              <h3 class="popular__price">10.000 сом</h3>
+              <button class="buttonn popular__button">
+                <a href="./ui.html">Подробнее</a>
+              </button>
+            </article>
+
+            <article class="popular__card swiper-slide">
+              <div class="shapeX shape__smaller"></div>
+              <h1 class="popular__title">Курсы</h1>
+              <h3 class="popular__subtitle">Английского</h3>
+              <img
+                src="assets/img/english_logo-removebg-preview.png"
+                alt=""
+                class="popular__img"
+              />
+              <div class="popular__data">
+                <div class="popular__data-group">
+                  <i class="ri-dashboard-2-line"></i> 3 месяца
+                </div>
+                <div class="popular__data-group">
+                  <i class="ri-exchange-funds-line"></i> 36 уроков
+                </div>
+              </div>
+              <h3 class="popular__price">10.000 сом</h3>
+              <button class="buttonn popular__button">
+                <a href="./english.html">Подробнее</a>
+              </button>
+            </article>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__group">
+            <img src="assets/img/akm.jpg" alt="" class="about__img" />
+
+            <div class="about__card">
+              <h3 class="about__card-title">5000+</h3>
+              <p class="about__card-description">
+                Студентов которые успешно окончили наши курсы программирования
+              </p>
+            </div>
+          </div>
+
+          <div class="about__data">
+            <h2 class="section__title about__title">
+              Почему стоит учиться <br />
+              в ITpark?
+            </h2>
+            <h1 class="section__title about__title">Менторство</h1>
+            <p class="about__description">
+              Во время обучения, помимо преподавателей, Вам будет доступна
+              персональная поддержка менторов, которые помогут решить любые
+              проблемы, связанные с учебой.
+            </p>
+
+            <a
+              href="https://forms.gle/NgKqYrvuPEADxASX6"
+              target="_blank"
+              class="button"
+              >Записаться на консультацию</a
+            >
+          </div>
+          <div class="about__data">
+            <h1 class="section__title about__title">
+              Преподователи - Практики
+            </h1>
+            <p class="about__description">
+              В рамках одного курса Вас будет обучать не один преподаватель, а
+              сразу несколько! Все они - действующие специалисты по своему
+              профилю и проходят тщательный отбор и регулярное повышение
+              квалификации.
+            </p>
+
+            <a
+              href="https://forms.gle/NgKqYrvuPEADxASX6"
+              target="_blank"
+              class="button"
+              >Записаться на консультацию</a
+            >
+          </div>
+          <div class="about__data">
+            <h1 class="section__title about__title">Подарок от нас</h1>
+            <p class="about__description">
+              Кодируй будущее с нашими курсами программирования! Получи
+              бесплатные занятия по английскому языку при записи на любой курс.
+              Учись эффективно, говори на английском уверенно!
+            </p>
+
+            <a
+              href="https://forms.gle/NgKqYrvuPEADxASX6"
+              target="_blank"
+              class="button"
+            >
+              Записаться на консультацию</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!--==================== FEATURED ====================-->
+      <section class="featured section" id="featured">
+        <h2 class="section__title">Наш состав</h2>
+        <div class="featured__container container">
+          <div class="featured__content grid">
+            <article class="featured__card mix tesla">
+              <div class="shape shape__smaller"></div>
+              <h1 class="featured__title">Адилет</h1>
+              <h3 class="featured__subtitle">Backend ментор</h3>
+              <img
+                src="assets/img/itlogo-transformed.png"
+                alt=""
+                class="featured__img"
+              />
+              <h3 class="featured__price">Опыт работы 4 года</h3>
+            </article>
+            
+            <article class="featured__card mix tesla">
+              <div class="shape shape__smaller"></div>
+              <h1 class="featured__title">Сагын</h1>
+              <h3 class="featured__subtitle">Frontend ментор</h3>
+              <img
+                src="assets/img/itlogo-transformed.png"
+                alt=""
+                class="featured__img"
+              />
+              <h3 class="featured__price">Опыт работы 4 года</h3>
+            </article>
+
+            <article class="featured__card">
+              <div class="shape shape__smaller"></div>
+              <h1 class="featured__title">Мухаммад</h1>
+              <h3 class="featured__subtitle">UI/UX дизайнер</h3>
+              <img
+                src="assets/img/itlogo-transformed.png"
+                alt=""
+                class="featured__img"
+              />
+              <h3 class="featured__price">Опыт работы 4 года</h3>
+            </article>
+          </div>
+        </div>
+
+        <!-- <div class="os">
+          <div class="box">
+            <span style="--i: 1"
+              ><img src="./assets/img/car1.jpg" alt="front"
+            /></span>
+            <span style="--i: 2"
+              ><img src="./assets/img/car2.jpg" alt="front"
+            /></span>
+            <span style="--i: 3"
+              ><img src="./assets/img/car3.jpg" alt="front"
+            /></span>
+            <span style="--i: 4"
+              ><img src="./assets/img/akm.jpg" alt="front"
+            /></span>
+            <span style="--i: 5"
+              ><img src="./assets/img/back-end.png" alt="front"
+            /></span>
+            <span style="--i: 6"
+              ><img src="./assets/img/english.png" alt="front"
+            /></span>
+            <span style="--i: 7"
+              ><img src="./assets/img/front.png" alt="front"
+            /></span>
+            <span style="--i: 8"
+              ><img src="./assets/img/ux.png" alt="front"
+            /></span>
+          </div>
+        </div> -->
+      </section>
+
+      <!--==================== OFFER ====================-->
+      <section class="offer section">
+        <div class="offer__container container grid">
+          <img src="assets/img/offer-bg.png" alt="" class="offer__bg" />
+
+          <div class="offer__data">
+            <h2 class="section__title offer__title">
+              Мой совет запишись <br />
+              на консультацию
+            </h2>
+
+            <p class="offer__description">
+              Прокачай свой код вместе с ITpark! <br />
+
+              Учим с нуля и совершенствуем профи. Профессиональное обучение,
+              реальные проекты, настоящие результаты. Подготовься к карьере в IT
+              с лучшими.
+            </p>
+
+            <a
+              href="https://forms.gle/NgKqYrvuPEADxASX6"
+              target="_blank"
+              class="button"
+              >Записаться на консультацию</a
+            >
+          </div>
+
+          <img
+            src="assets/img/itlogo_cons-removebg-preview.png"
+            alt=""
+            class="offer__img"
+          />
+        </div>
+      </section>
+     
+
+      <!--==================== LOGOS ====================-->
+      <section class="logos section">
+        <div class="logo_text">
+          <h1 class="logo_h1">Программы и языки</h1>
+          <p class="logo_p1">
+            Вы научитесь всем самым востребованным направлениям
+          </p>
+        </div>
+
+        <div class="logos__container container grid">
+          <div class="logos__content">
+            <img src="assets/img/logos_figma.png" alt="" class="logos__img" />
+          </div>
+          <div class="logos__content">
+            <img src="assets/img/logos_python.png" alt="" class="logos__img" />
+          </div>
+          <div class="logos__content">
+            <img
+              src="assets/img/vscode-icons_file-type-js-official.png"
+              alt=""
+              class="logos__img"
+            />
+          </div>
+          <div class="logos__content">
+            <img
+              src="assets/img/emojione-monotone_atom-symbol.png"
+              alt=""
+              class="logos__img"
+            />
+          </div>
+          <div class="logos__content">
+            <img
+              src="assets/img/devicon_nodejs.png"
+              alt=""
+              class="logos__img"
+            />
+          </div>
+          <div class="logos__content">
+            <img src="assets/img/devicon_git.png" alt="" class="logos__img" />
+          </div>
+        </div>
+      </section>
+      <div div class="center-container">
+        <h1 class="center-container-h1">Часто задаваемые вопросы</h1>
+        <div class="faq">
+          <div class="question">
+            Нужно ли знать математику на отлично ?
+            <span class="toggle">➕</span>
+          </div>
+          <div class="answer">
+            Нет! Хоть IT-специальность связана с цифрами и с символами но от них
+            не зависит.Дело в том что прогорммирование-это логическая
+            цепочка.Именно способность размышлять,является важным навыком
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="question">
+            Как определитьтся с выбором направления ?
+            <span class="toggle">➕</span>
+          </div>
+          <div class="answer">
+            Мы с удовольствием поможем ее определить ! При небольшой беседе с
+            вами,мы предоставим собственную рекомендацию в выборе специальности
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="question">
+            У меня нет ноутбука или ПК
+            <span class="toggle">➕</span>
+          </div>
+          <div class="answer">
+            Компьютер предоставим мы! Вы можете приходить к нам в любое время и
+            выполнять домашние задания
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="question">
+            Есть ли возрастные ограничения ?
+            <span class="toggle">➕</span>
+          </div>
+          <div class="answer">
+            Нет ограничений,во сколько лет начать изучение языков и создавать
+            свои проекты
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="question">
+            Могу ли я стажироваться после окончания курсов ?
+            <span class="toggle">➕</span>
+          </div>
+          <div class="answer">
+            Мы предостовляем стажировку только для самых лучших студентов.Все
+            зависит от ваших стараний.
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="question">
+            Смогу ли я совмещать с учебой или работой ?
+            <span class="toggle">➕</span>
+          </div>
+          <div class="answer">
+            Если ваш график не слишком загруженный,то получится. У нас уроки
+            проводятся по 2 часа и еще 2 часа на практику Для лучшего результата
+            потребуется уделять больше времени
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <!-- <div class="shapeX shape__big"></div> -->
+      <div class="shapeX shape__small"></div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3032.5538463677926!2d72.79524607555544!3d40.52935144877799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bdad01d93a1f6f%3A0x6a9c383ea0094bc!2sITPARK%20ACADEMY!5e0!3m2!1sru!2skg!4v1694642229188!5m2!1sru!2skg"
+        width="100%"
+        height="400"
+        style="border: 0; opacity: 0.6; margin-bottom: 70px"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <div class="footer__container container grid">
+        <div class="footer__content">
+          <a href="#" class="footer__logo">
+            <!-- <i class="ri-steering-line"></i> -->
+            ITpark
+          </a>
+          <p class="footer__description">
+            Прокачай свой код вместе с ITpark! <br />
+            Подготовься к карьере в IT с лучшими.
+          </p>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Компания</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#home" class="nav__link">Главное</a>
+            </li>
+            <li>
+              <a href="#about" class="nav__link">О нас</a>
+            </li>
+            <li>
+              <a href="popular" class="nav__link">Направления</a>
+            </li>
+            <li>
+              <a href="featured" class="nav__link"> Наш состав</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__content">
+          <h3 class="footer__title">Подпишись на нас</h3>
+
+          <ul class="footer__social">
+            <a
+              href="https://www.facebook.com/itpark.osh/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-facebook-fill"></i>
+            </a>
+            <a
+              href="https://instagram.com/itpark_osh?igshid=NzZhOTFlYzFmZQ=="
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a
+              href="https://api.whatsapp.com/send/?phone=%2B996500891111&text&type=phone_number&app_absent=0"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-whatsapp-fill"></i>
+            </a>
+          </ul>
+        </div>
+      </div>
+      <span class="footer__copy">
+        <p id="date"></p>
+      </span>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+
+    <a href="" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-s-line"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL - PAGE ANNIMATION ===============-->
+    <script src="assets/js/scrollrevealAnimation.min.js"></script>
+
+    <!--=============== SWIPER JS - PRODUCT SLIDER ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP JS - FILTER PRODUCT ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
