@@ -620,7 +620,7 @@ img {
 }
 
 .popular__img {
-  width: 160px;
+  width: 115px;
   margin: .75rem 0 1.25rem 1.5rem;
   transition: .3s;
 }
@@ -1322,7 +1322,7 @@ canvas {
   }
 
   .popular__img {
-    width: 180px;
+    width: 140px;
     margin: .75rem 0 1.25rem 2rem;
   }
 
